@@ -20,3 +20,17 @@ Route::get('/', function () {
 Route::get('/comics', function () {
     return view('comics');
 })->name('comics');
+
+Route::get('/contacts', function () {
+    return view('contacts');
+})->name('contacts');
+
+Route::get('/aboutus', function () {
+    return view('aboutus');
+})->name('aboutus');
+
+Route::get('/privacypolicy', function () {
+    return view('privacypolicy');
+})->name('privacypolicy');
+
+
