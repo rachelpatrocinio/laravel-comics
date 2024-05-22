@@ -1,0 +1,17 @@
+
+.logo{
+    width: 80px;
+}
+
+.main-header{
+    height: 100px;
+}
+
+.main-header .row{
+    flex-wrap: nowrap;
+}
+
+.main-header ul li{
+    width: calc(100% / 9);
+    text-align: center;
+}
