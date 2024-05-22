@@ -9,9 +9,9 @@
                 <ul class="d-flex align-items-center m-0 w-100">
                     <li><a href="{{ route('home')}}">HOME</a></li>
                     <li><a href="{{ route('comics')}}">COMICS</a></li>
-                    <li>MOVIES</li>
-                    <li>TV</li>
-                    <li>GAMES</li>
+                    <li><a href="{{ route('contacts')}}">CONTACTS</a></li>
+                    <li><a href="{{ route('aboutus')}}">ABOUT US</a></li>
+                    <li><a href="{{ route('privacypolicy')}}">PRIVACY</a></li>
                     <li>VIDEOS</li>
                     <li>FANS</li>
                     <li>NEWS</li>
