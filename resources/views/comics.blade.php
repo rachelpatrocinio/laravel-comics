@@ -12,11 +12,11 @@
 <div class="container">
     <div class="row">
         @foreach($comics as $comic)
-        <div class="col-4">
+        <div class="col-2">
             <div class="card">
-                <img src="{{ $comic['thumb']}}" alt="">
-                <h5>{{ $comic['series']}}</h5>
-                <h6>{{ $comic['title']}}</h6>
+                <img src="{{ $comic['thumb']}}" alt="comic image" class="card-img-top">
+                <h6 class="card-title mt-2">{{ $comic['title']}}</h6>
+                <p>{{ $comic['series']}}</p>
             </div>
         </div>
         @endforeach
