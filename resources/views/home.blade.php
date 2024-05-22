@@ -11,7 +11,15 @@
 @section('comics-card')
 <div class="container">
     <div class="row">
-        COMICS CARD
+        @foreach($comics as $comic)
+        <div class="col-4">
+            <div class="card">
+                <img src="{{ $comic['thumb']}}" alt="">
+                <h5>{{ $comic['series']}}</h5>
+                <h6>{{ $comic['title']}}</h6>
+            </div>
+        </div>
+        @endforeach
     </div>
 </div>
 @endsection
