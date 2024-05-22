@@ -8,7 +8,7 @@
 </div>
 @endsection
 
-@section('comics-card')
+@section('content')
 <div class="container">
     <div class="row">
         @foreach($comics as $comic)

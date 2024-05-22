@@ -13,7 +13,6 @@
     <main>
     @yield('title')
     @yield('content')
-    @yield('comics-card')
     </main>
     
     @include('partials.footer')
