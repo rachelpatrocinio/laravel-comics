@@ -5,7 +5,7 @@
                 <img class="logo" src="{{ Vite::asset('resources/img/dc-logo.png')}}" alt="Logo">
             </div>
 
-            <div class="col-10 d-flex">
+            <div class="menu col-10 d-flex">
                 <ul class="d-flex align-items-center m-0 w-100">
                     <li><a href="{{ route('home')}}">HOME</a></li>
                     <li><a href="{{ route('comics')}}">COMICS</a></li>
